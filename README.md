@@ -1,26 +1,26 @@
-# \---
+---
 
-# title: Sales Forecasting Demand Prediction
+title: Sales Forecasting Demand Prediction
 
-# emoji: 🤖
+emoji: 🤖
 
-# colorFrom: purple
+colorFrom: purple
 
-# colorTo: pink
+colorTo: pink
 
-# sdk: gradio
+sdk: gradio
 
-# sdk\\\_version: 6.14.0
+sdk_version: 6.14.0
 
-# python\\\_version: '3.13'
+python_version: '3.13'
 
-# app\\\_file: app.py
+app_file: app.py
 
-# pinned: false
+pinned: false
 
-# license: mit
+license: mit
 
-# \---
+---
 
 # 📈 AI-Powered Sales Forecasting \& Demand Prediction System
 
@@ -36,15 +36,15 @@ The project combines:
 
 to deliver a real-world business forecasting solution.
 
-\---
+---
 
 # 🚀 Live Demo
 
-🔗 Hugging Face Deployment: **\[https://huggingface.co/spaces/Aniket1104/sales-forecasting-demand-prediction]**
+🔗 Hugging Face Deployment:- https://huggingface.co/spaces/Aniket1104/sales-forecasting-demand-prediction
 
-🔗 GitHub Repository: **\[https://github.com/aniket01104-cell/Sales-Forecasting-Demand-Prediction-System]**
+🔗 GitHub Repository:- https://github.com/aniket01104-cell/Sales-Forecasting-Demand-Prediction-System
 
-\---
+---
 
 # 📌 Project Overview
 
@@ -64,25 +64,25 @@ This project analyzes historical sales trends and predicts future demand using m
 
 The best-performing model is then deployed using Gradio for real-time sales prediction.
 
-\---
+---
 
 # 🧠 Key Features
 
 ✅ Advanced Feature Engineering  
 ✅ Machine Learning Forecasting  
 ✅ Time Series Analysis  
-✅ Deep Learning (LSTM \& GRU)  
+✅ Deep Learning (LSTM & GRU)  
 ✅ Interactive Gradio Web App  
 ✅ Tableau Dashboard Visualization  
 ✅ Model Performance Comparison  
 ✅ Business Recommendations  
 ✅ Cloud Deployment Ready
 
-\---
+---
 
 # 🛠️ Tech Stack
 
-## Programming \& Analysis
+## Programming & Analysis
 
 * Python
 * Pandas
@@ -107,7 +107,7 @@ The best-performing model is then deployed using Gradio for real-time sales pred
 * LSTM
 * GRU
 
-## Visualization \& Dashboard
+## Visualization & Dashboard
 
 * Tableau
 * Matplotlib
@@ -118,37 +118,38 @@ The best-performing model is then deployed using Gradio for real-time sales pred
 * Gradio
 * Hugging Face Spaces
 
-\---
+---
 
 # 📂 Project Structure
 
 ```
-AI-Powered-Sales-Forecasting-and-Demand-Prediction-System/
+Sales-Forecasting-Demand-Prediction-System/
 │
 ├── data/
 │   ├── sales.csv
-│   ├── df\\\\\\\_daily.csv
-│   └── df\\\\\\\_feature\\\\\\\_engineered.csv
+│   ├── df_daily.csv
+│   └── df_feature_engineered.csv
 │
 ├── notebooks/
-│   ├── 01\\\\\\\_data\\\\\\\_cleaning.ipynb
-│   ├── 02\\\\\\\_feature\\\\\\\_engineering.ipynb
-│   └── 03\\\\\\\_model\\\\\\\_building.ipynb
+│   ├── 01_data_cleaning.ipynb
+│   ├── 02_feature_engineering.ipynb
+│   └── 03_model_building.ipynb
 │
 ├── dashboard/
-│   └── tableau\\\\\\\_dashboard.png
+│   ├── Sales Forecasting Dashboard.twb
+│   └── Dahboard_preview.png
 │
 ├── sql/
-│   └── sql\\\\\\\_queries.sql
+│   └── sales_analysis_queries.sql
 │
 ├── app.py
-├── final\\\\\\\_model.pkl
+├── final_model.pkl
 ├── requirements.txt
 ├── runtime.txt
 └── README.md
 ```
 
-\---
+---
 
 # 📊 Exploratory Data Analysis
 
@@ -166,7 +167,7 @@ The dataset was analyzed to identify:
 * Consistent yearly sales growth
 * High sales variability during peak periods
 
-\---
+---
 
 # ⚙️ Feature Engineering
 
@@ -200,7 +201,7 @@ Several time-series based features were created to improve prediction accuracy.
 * Month Start
 * Month End
 
-\---
+---
 
 # 🤖 Models Implemented
 
@@ -214,7 +215,7 @@ Several time-series based features were created to improve prediction accuracy.
 |LSTM|Deep Learning|
 |GRU|Deep Learning|
 
-\---
+---
 
 # 📈 Final Model Performance
 
@@ -228,13 +229,13 @@ Several time-series based features were created to improve prediction accuracy.
 |ARIMA|1606.34|2519.57|
 |SARIMA|2146.63|2567.73|
 
-\---
+---
 
 # 🏆 Best Model Selected
 
 **Ridge Regression** achieved the lowest error metrics and was selected as the final production model.
 
-\---
+---
 
 # 🖥️ Tableau Dashboard
 
@@ -248,7 +249,7 @@ The interactive dashboard provides:
 * Yearly Sales Trends
 * Daily Sales Trend Visualization
 
-\---
+---
 
 # 🌐 Gradio Deployment
 
@@ -266,7 +267,7 @@ A fully interactive web application was built using Gradio where users can:
 * Real-time prediction engine
 * User guidance section
 
-\---
+---
 
 # 📉 Business Impact
 
@@ -279,7 +280,7 @@ This forecasting system can help businesses:
 * Improve operational efficiency
 * Support data-driven business decisions
 
-\---
+---
 
 # 💡 Future Improvements
 
@@ -293,18 +294,18 @@ Possible future enhancements include:
 * Stream processing
 * Multi-store forecasting
 
-\---
+---
 
 # 👨‍💻 Author
 
 **Aniket Pingle**
 
-* Data Science \& Analytics Enthusiast
-* Machine Learning \& Forecasting Projects
+* Data Science & Analytics Enthusiast
+* Machine Learning & Forecasting Projects
 * Tableau Dashboard Development
 * SQL + ML + Deployment Projects
 
-\---
+---
 
 # ⭐ If You Like This Project
 
