@@ -1,26 +1,16 @@
-# \---
+\---
 
-# title: Sales Forecasting Demand Prediction
-
-# emoji: 🤖
-
-# colorFrom: purple
-
-# colorTo: pink
-
-# sdk: gradio
-
-# sdk\_version: 6.14.0
-
-# python\_version: '3.13'
-
-# app\_file: app.py
-
-# pinned: false
-
-# license: mit
-
-# \---
+title: Sales Forecasting Demand Prediction
+emoji: 🤖
+colorFrom: purple
+colorTo: pink
+sdk: gradio
+sdk\_version: 6.14.0
+python\_version: '3.13'
+app\_file: app.py
+pinned: false
+license: mit
+---
 
 # 📈 AI-Powered Sales Forecasting \& Demand Prediction System
 
@@ -122,27 +112,27 @@ The best-performing model is then deployed using Gradio for real-time sales pred
 
 # 📂 Project Structure
 
-```bash
+```
 AI-Powered-Sales-Forecasting-and-Demand-Prediction-System/
 │
 ├── data/
 │   ├── sales.csv
-│   ├── df\\\\\\\\\\\\\\\_daily.csv
-│   └── df\\\\\\\\\\\\\\\_feature\\\\\\\\\\\\\\\_engineered.csv
+│   ├── df\_daily.csv
+│   └── df\_feature\_engineered.csv
 │
 ├── notebooks/
-│   ├── 01\\\\\\\\\\\\\\\_data\\\\\\\\\\\\\\\_cleaning.ipynb
-│   ├── 02\\\\\\\\\\\\\\\_feature\\\\\\\\\\\\\\\_engineering.ipynb
-│   └── 03\\\\\\\\\\\\\\\_model\\\\\\\\\\\\\\\_building.ipynb
+│   ├── 01\_data\_cleaning.ipynb
+│   ├── 02\_feature\_engineering.ipynb
+│   └── 03\_model\_building.ipynb
 │
 ├── dashboard/
-│   └── tableau\\\\\\\\\\\\\\\_dashboard.png
+│   └── tableau\_dashboard.png
 │
 ├── sql/
-│   └── sql\\\\\\\\\\\\\\\_queries.sql
+│   └── sql\_queries.sql
 │
 ├── app.py
-├── final\\\\\\\\\\\\\\\_model.pkl
+├── final\_model.pkl
 ├── requirements.txt
 ├── runtime.txt
 └── README.md
