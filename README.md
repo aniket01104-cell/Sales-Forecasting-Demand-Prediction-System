@@ -1,3 +1,14 @@
+---
+title: Sales Forecasting Demand Prediction
+emoji: 📈
+colorFrom: blue
+colorTo: green
+sdk: gradio
+sdk_version: "1.32.0"
+app_file: app.py
+pinned: false
+---
+
 # Sales Forecasting & Demand Prediction System
 
 ## Project Overview
