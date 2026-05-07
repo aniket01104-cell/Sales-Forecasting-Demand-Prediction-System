@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install huggingface_hub
         run: pip install huggingface_hub
@@ -31,6 +31,7 @@ jobs:
               "requirements.txt",
               "runtime.txt",
               "final_model.pkl",
+              "README.md",
           ]
 
           for file in files_to_push:
