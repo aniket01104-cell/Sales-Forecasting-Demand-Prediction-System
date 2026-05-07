@@ -31,6 +31,7 @@ jobs:
               "requirements.txt",
               "runtime.txt",
               "final_model.pkl",
+              "README.md",
           ]
 
           for file in files_to_push:
