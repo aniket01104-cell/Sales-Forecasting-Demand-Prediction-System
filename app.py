@@ -27,7 +27,7 @@ def predict_sales(
         values = [0 if v is None else v for v in values]
         features = np.array([values])
         prediction = model.predict(features)[0]
-        return f"Expected Sales: ₹ {round(prediction, 2)}"
+        return f"Expected Sales: $ {round(prediction, 2)}"
     except Exception as e:
         return f"Error: {str(e)}"
 
