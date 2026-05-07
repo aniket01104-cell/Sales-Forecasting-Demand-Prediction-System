@@ -1,0 +1,48 @@
+name: Sync to Hugging Face Space
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync-to-hf:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Install huggingface_hub
+        run: pip install huggingface_hub
+
+      - name: Push selected files to HF Space
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          python - <<EOF
+          from huggingface_hub import HfApi
+          import os
+
+          api = HfApi()
+
+          # ✅ ONLY these files will be pushed to HF Space
+          files_to_push = [
+              "app.py",
+              "requirements.txt",
+              "runtime.txt",
+              "final_model.pkl",
+          ]
+
+          for file in files_to_push:
+              if os.path.exists(file):
+                  api.upload_file(
+                      path_or_fileobj=file,
+                      path_in_repo=file,
+                      repo_id="Aniket1104/sales-forecasting-demand-prediction",
+                      repo_type="space",
+                      token=os.environ["HF_TOKEN"]
+                  )
+                  print(f"✅ Uploaded: {file}")
+              else:
+                  print(f"⚠️ Skipped (not found): {file}")
+          EOF
