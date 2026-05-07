@@ -321,6 +321,4 @@ with gr.Blocks(css=custom_css) as app:
 - Works best with realistic input values
 """)
 
-
-
-app.launch()
+app.launch(share=False)
